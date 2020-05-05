@@ -24,8 +24,8 @@ const InputGroup = (props) => {
 };
 
 InputGroup.propTypes = {
-  length: PropTypes.string,
-  percentage: PropTypes.string,
+  setLength: PropTypes.func,
+  setPercentage: PropTypes.func,
 };
 
 export default InputGroup;
