@@ -7,13 +7,13 @@ const BorderRadius = styled.div`
   width: 100%;
   border: solid 5px;
   border-top-left-radius: ${({ borderA1, borderA2 }) =>
-    `${borderA1}px ${borderA2}px`};
+    `${borderA1}px ${borderA2}%`};
   border-top-right-radius: ${({ borderB1, borderB2 }) =>
-    `${borderB1}px ${borderB2}px`};
+    `${borderB1}px ${borderB2}%`};
   border-bottom-left-radius: ${({ borderC1, borderC2 }) =>
-    `${borderC1}px ${borderC2}px`};
+    `${borderC1}px ${borderC2}%`};
   border-bottom-right-radius: ${({ borderD1, borderD2 }) =>
-    `${borderD1}px ${borderD2}px`};
+    `${borderD1}px ${borderD2}%`};
 `;
 
 const Border = (props) => {
